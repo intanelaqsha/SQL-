@@ -16,7 +16,7 @@ iii. Are you able to infer anything from the location data provided between thes
 
 
 SQL code used for analysis:
-
+-- BEGIN SQL CODE
 SELECT B.name,
             B.review_count,
             H.hours,
@@ -47,7 +47,7 @@ SELECT B.name,
         B.stars BETWEEN 4 AND 5)
         GROUP BY stars,ord
         ORDER BY star_rating, ord ASC
-
+-- END SQL CODE
 
 		
 2. Group business based on the ones that are open and the ones that are closed. What differences can you find between the ones that are still open and the ones that are closed? List at least two differences and the SQL code you used to arrive at your answer.
