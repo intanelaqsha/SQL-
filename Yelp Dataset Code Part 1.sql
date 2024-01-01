@@ -4,8 +4,10 @@ Part 1: Yelp Dataset Profiling and Understanding
 
 1. Profile the data by finding the total number of records for each of the tables below:
 
+-- BEGIN SQL CODE
  SELECT COUNT(*)
     FROM table
+-- END SQL CODE
 	
         Table name            Total number of records
 -----------------------------------------------------------
